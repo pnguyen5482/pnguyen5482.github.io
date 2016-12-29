@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
 <meta charset="UTF-8">
- 
+<body style="background-color: #efefef">
 <!-- If IE use the latest rendering engine -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
  
 <!-- Set the page to the width of the device and set the zoon level -->
 <meta name="viewport" content="width = device-width, initial-scale = 1">
-<title>Peter's Practice Site</title>
+<title>ConvoWaves Home</title>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
  
 <style>
@@ -29,17 +30,66 @@
 </style>
  
 </head>
-
-<p align="center" style="font-family: cursive"> There's nothing here yet </p>	
+	<nav class = 'navbar navbar-fixed navbar-dark bg-faded'>
+		<div class="container-fluid">
+		<a class="navbar-brand" href="google.com"><p style="color: black">ConvoWaves</p></a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+			<a class="nav-link" href="google.com">Home<span class="sr-only">(current)</span>
+			</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="google.com">These </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="google.com">Are</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="google.com" id="supportedContentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secrets</a>
+				<div class="dropdown-menu" aria-labelledby="supportedContentDropdown">
+					<a class="dropdown-item" href="google.com">Stop</a>
+					<a class="dropdown-item" href="google.com">Looking</a>
+					<a class="dropdown-item" href="google.com"> Kek.</a>
+				</div>
+			</li>
+		</ul>	
 		</div>
 	</nav>
 	
 	</div>	
-	<div class="container">
-		<div class="row" align="center">
-			<img src="swing.GIF">
-		</div></div>
-
+	<div class="container" style="vertical-align: middle">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+				<h4 align="center"><img src="swing.GIF" height="80px" width="80px"></br></span></h4>
+				<ul class="nav nav-stacked">
+					<li role="presentation" class="active"><a href="google.com">Home</a></li>
+				<li role="presentation"><a href="google.com">My Profile</a></li>
+				<li role="presentation"><a href="google.com">StoryBook</a></li>
+				</ul>
+			</div> 
+			<div class="col-lg-10 col-md-10 col-sm-7 col-xs-8">
+				<h3 align="center">ConvoWaves <em style="font-size: small; font-family: cursive">Pre-Alpha</em></h3>
+				<p align="center"><b>Hurro dere!</b></p>
+				<p>ConvoWaves is in construction!
+					The tentative timeline for this site will be:
+					<ul>
+						<li><b>February 1st:</b>Home Page and errthan else somewhat finished</li>
+						<li><b>February 30th:</b> Finish Designing Layout</li>
+						<li><b>April 30th:</b> Complete subpages</li>
+						<li><b>June 30th:</b> Beta Version Complete + Ready for distro </li>
+					</ul>
+				</p>
+				
+				<script> 
+					var datetme = new Date()
+					document.write(datetme);
+					var stackDate = new Date(Date.GMT(2017,2,1,0,0,0));
+					var layoutDate = new Date(Date.GMT(2017,2,30,0,0,0));
+					var alphaDate = new Date(Date.GMT(2017,4,30,0,0,0));
+					var betaDate = new Date(Date.GMT(2017, 6,30,0,0,0));
+					var timeToStack = Math.abs(stackDate - datetme);
+					
+				</script>
 			</div>
 			<!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 				<h4>Third Column</h4>
@@ -53,4 +103,5 @@
 			
 		</div>
 	</div>
-	
+
+			
